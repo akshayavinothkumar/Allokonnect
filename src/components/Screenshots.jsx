@@ -15,9 +15,9 @@ export default function Screenshots() {
     <section id="screenshots" className="bg-white py-20">
       <div className="section-shell">
         <SectionHeader
-          eyebrow="App Screens"
-          title="Real AlloKonnect screens, front and center."
-          text="Screenshots are managed from one data file, so future app updates can be swapped into the site quickly."
+          eyebrow="AlloKonnect"
+          title="See AlloKonnect in Action."
+          text="Explore authentic app screens and see how AlloKonnect works in everyday healthcare scenarios."
         />
         <div className="mt-12 grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           <div className="mx-auto w-full max-w-[340px]">
