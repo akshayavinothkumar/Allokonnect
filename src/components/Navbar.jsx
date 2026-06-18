@@ -1,5 +1,6 @@
 import { Menu, Stethoscope, X } from 'lucide-react';
 import { useState } from 'react';
+import icon from "../assets/screenshots/icon.jpeg";
 
 const navItems = [
   ['About', '#about'],
@@ -15,9 +16,11 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/92 backdrop-blur">
       <nav className="section-shell flex h-16 items-center justify-between" aria-label="Primary navigation">
         <a href="#hero" className="flex items-center gap-3 font-bold text-secondary" aria-label="AlloKonnect home">
-          <span className="grid h-10 w-10 place-items-center rounded-full bg-primary text-white">
-            <Stethoscope size={20} aria-hidden="true" />
-          </span>
+          <img
+            src={icon}
+            alt="AlloKonnect Logo"
+            className="h-10 w-10 object-contain rounded-md"
+          />
           <span className="text-lg">AlloKonnect</span>
         </a>
         <div className="hidden items-center gap-8 md:flex">
